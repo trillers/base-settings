@@ -29,8 +29,9 @@ module.exports = {
 
     rabbitmq: {
         host: "114.215.91.211",
-        username: 'admin',
-        password: 'p@ssw0rd!',
-        prefix: 'prd:'
+        port: 5672,
+        vhost: 'wenode_prd',
+        username: 'wenode',
+        password: 'wen0dep@ssw0rd!'
     }
 };
