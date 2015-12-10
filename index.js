@@ -12,11 +12,7 @@ module.exports = {
         mode: 'single',
         host: '127.0.0.1',
         port: 6379,
-        auth: 'trillers',
-        sentinel: {
-            hosts: [{host: '127.0.0.1', port: 26379}],
-            masterName: 'mymaster'
-        }
+        auth: 'trillers'
     },
 
     mongo: {
@@ -29,8 +25,9 @@ module.exports = {
 
     rabbitmq: {
         host: "114.215.91.211",
-        username: 'admin',
-        password: 'p@ssw0rd!',
-        prefix: 'dev:'
+        port: 5672,
+        vhost: 'wenode_dev',
+        username: 'wenode',
+        password: 'wen0dep@ssw0rd!'
     }
 };
