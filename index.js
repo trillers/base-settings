@@ -1,6 +1,6 @@
 module.exports = {
     env: {
-        name: 'prd'
+        name: 'nprd'
     },
 
     logging: {
@@ -18,9 +18,9 @@ module.exports = {
     mongo: {
         host: "114.215.91.211",
         port: 27017,
-        db: "wenode",
-        username: 'wenode',
-        password: 'wenode'
+        db: "note",
+        username: 'note',
+        password: 'note'
     },
 
     rabbitmq: {
