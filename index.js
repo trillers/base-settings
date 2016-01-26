@@ -10,7 +10,7 @@ module.exports = {
 
     redis: {
         mode: 'single',
-        host: '114.215.91.211',
+        host: '127.0.0.1',
         port: 6379,
         auth: 'trillers'
     },
