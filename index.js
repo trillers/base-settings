@@ -1,6 +1,6 @@
 module.exports = {
     env: {
-        name: 'ci'
+        name: 'nci'
     },
 
     logging: {
@@ -10,7 +10,7 @@ module.exports = {
 
     redis: {
         mode: 'single',
-        host: '121.42.61.180',
+        host: '114.215.91.211',
         port: 6379,
         auth: 'trillers'
     },
@@ -18,9 +18,9 @@ module.exports = {
     mongo: {
         host: "114.215.91.211",
         port: 27017,
-        db: "wenode-ci",
-        username: 'wenode-ci',
-        password: 'wenode-ci'
+        db: "note-ci",
+        username: 'note-ci',
+        password: 'note-ci'
     },
 
     rabbitmq: {
