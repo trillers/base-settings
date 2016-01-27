@@ -16,11 +16,11 @@ module.exports = {
     },
 
     mongo: {
-        host: "114.215.91.211",
+        host: "127.0.0.1",
         port: 27017,
-        db: "wenode-dev",
-        username: 'wenode-dev',
-        password: 'wenode-dev'
+        db: "note",
+        username: '',
+        password: ''
     },
 
     rabbitmq: {
