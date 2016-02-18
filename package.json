@@ -1,5 +1,5 @@
 {
-  "name": "base-settings",
+  "name": "@private/base-settings",
   "version": "0.1.0-SNAPSHOT",
   "description": "base settings",
   "repository": {
