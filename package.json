@@ -1,6 +1,6 @@
 {
-  "name": "base-settings",
-  "version": "0.1.0-SNAPSHOT",
+  "name": "@trillers/base-settings",
+  "version": "1.0.0-SNAPSHOT",
   "description": "base settings",
   "repository": {
     "type": "https",
