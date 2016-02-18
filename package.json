@@ -1,6 +1,6 @@
 {
-  "name": "@trillers/base-settings",
-  "version": "1.0.0-SNAPSHOT",
+  "name": "@private/base-settings",
+  "version": "1.0.0",
   "description": "base settings",
   "repository": {
     "type": "https",
@@ -10,5 +10,6 @@
   "author": "henryleu@126.com",
   "license": "",
   "dependencies": {
+
   }
 }
