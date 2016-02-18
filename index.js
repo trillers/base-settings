@@ -1,11 +1,11 @@
 module.exports = {
     env: {
-        name: 'nprd'
+        name: 'nci'
     },
 
     logging: {
         reloadSecs: 0, //INFO: set 0 could let nodeunit tests which use log4js exit properly
-        level: 'INFO'
+        level: 'DEBUG'
     },
 
     redis: {
@@ -18,15 +18,15 @@ module.exports = {
     mongo: {
         host: "114.215.91.211",
         port: 27017,
-        db: "note",
-        username: 'note',
-        password: 'note'
+        db: "note-ci",
+        username: 'note-ci',
+        password: 'note-ci'
     },
 
     rabbitmq: {
         host: "114.215.91.211",
         port: 5672,
-        vhost: 'wenode_prd',
+        vhost: 'wenode_ci',
         username: 'wenode',
         password: 'wen0dep@ssw0rd!'
     }
