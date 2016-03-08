@@ -1,6 +1,6 @@
 var fs = require('fs');
 var settings = null;
-var absPath = '';
+var absPath = '/apps/conf/vmark/config';
 
 try{
     var configFileStr = fs.readFileSync(absPath).toString();
