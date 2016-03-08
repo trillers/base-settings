@@ -1,13 +1,13 @@
 {
   "name": "@private/base-settings",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "base settings",
   "repository": {
-    "type": "https",
-    "url": "https://github.com/trillers/base-settings.git"
+    "type": "http",
+    "url": "http://git.baijiahulian.com/baijiabao/base-settings.git"
   },
   "main": "index.js",
-  "author": "henryleu@126.com",
+  "author": "lvhongli@baijiahulian.com",
   "license": "",
   "dependencies": {
 
