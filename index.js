@@ -5,18 +5,18 @@ module.exports = {
 
     logging: {
         reloadSecs: 0, //INFO: set 0 could let nodeunit tests which use log4js exit properly
-        level: 'DEBUG'
+        level: 'ERROR'
     },
 
     redis: {
         mode: 'single',
-        host: '123.150.207.18',
+        host: '127.0.0.1',
         port: 6379,
         auth: 'trillers'
     },
 
     mongo: {
-        host: "114.215.91.211",
+        host: "127.0.0.1",
         port: 27017,
         db: "wenode-qa",
         username: 'wenode-qa',
