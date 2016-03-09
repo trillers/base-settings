@@ -4,17 +4,10 @@ var absPath = '/apps/conf/vmark/config';
 
 try{
     var configFileStr = fs.readFileSync(absPath).toString();
-    var pathFragments = absPath.split('.');
-    var fileSuffix = pathFragments[pathFragments.length-1];
-    switch (fileSuffix) {
-        case 'json':
-            settings = JSON.parse(configFileStr);
-            break;
-        default:
-            throw new Error('format of file must be json');
-    }
+    settings = JSON.parse(configFileStr);
 }catch(e){
-    console.error('Require base-settings failed.');
+    console.error(e);
+    console.error('Fail to parse and load external settings file');
     throw new Error(e);
 }
 
