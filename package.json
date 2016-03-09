@@ -1,6 +1,6 @@
 {
   "name": "@private/base-settings",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "base settings",
   "repository": {
     "type": "http",
